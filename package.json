@@ -14,7 +14,7 @@
     "@types/ws": "^3.2.0",
     "request": "^2.83.0",
     "sugar": "^2.0.4",
-    "snyk": "^1.68.1"
+    "snyk": "^1.69.10"
   },
   "deprecated": false,
   "description": "",
