@@ -30,8 +30,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "prepublishOnly": "tsc -p src",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "snyk-protect": "snyk protect"
   },
   "typings": "dist/server/index.d.ts",
   "version": "1.0.7",
