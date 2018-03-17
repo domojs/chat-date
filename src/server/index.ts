@@ -4,6 +4,8 @@ import * as url from 'url';
 import * as path from 'path';
 import * as chat from '@domojs/chat';
 
+export * from './interpreter';
+
 const debug = akala.log('domojs:chat:date');
 
 akala.worker.createClient('chat').then(function (client)
