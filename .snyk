@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.2
+version: v1.12.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -116,6 +116,22 @@ patch:
         patched: '2018-03-09T08:19:42.905Z'
     - '@domojs/chat-date > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug':
         patched: '2018-03-09T08:19:42.905Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > debug':
+        patched: '2018-05-24T01:55:30.490Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > socket.io-adapter > debug':
+        patched: '2018-05-24T01:55:30.490Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > socket.io-client > debug':
+        patched: '2018-05-24T01:55:30.490Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > socket.io-client > engine.io-client > debug':
+        patched: '2018-05-24T01:55:30.490Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > socket.io-parser > debug':
+        patched: '2018-05-24T01:55:30.490Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > socket.io-adapter > socket.io-parser > debug':
+        patched: '2018-05-24T01:55:30.490Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug':
+        patched: '2018-05-24T01:55:30.490Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > engine.io > debug':
+        patched: '2018-05-24T01:55:30.490Z'
   'npm:minimatch:20160620':
     - '@domojs/chat > @domojs/theme-default > gulp > vinyl-fs > glob-stream > minimatch':
         patched: '2018-01-16T06:06:12.707Z'
@@ -166,3 +182,19 @@ patch:
         patched: '2018-01-16T19:16:33.026Z'
     - '@domojs/chat-date > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug > ms':
         patched: '2018-01-16T19:16:33.026Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug > ms':
+        patched: '2018-05-24T01:55:30.490Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > engine.io > debug > ms':
+        patched: '2018-05-24T01:55:30.490Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > socket.io-adapter > debug > ms':
+        patched: '2018-05-24T01:55:30.490Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > socket.io-client > debug > ms':
+        patched: '2018-05-24T01:55:30.490Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > socket.io-client > engine.io-client > debug > ms':
+        patched: '2018-05-24T01:55:30.490Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > socket.io-parser > debug > ms':
+        patched: '2018-05-24T01:55:30.490Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > socket.io-adapter > socket.io-parser > debug > ms':
+        patched: '2018-05-24T01:55:30.490Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > socket.io > debug > ms':
+        patched: '2018-05-24T01:55:30.490Z'
