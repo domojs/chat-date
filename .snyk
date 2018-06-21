@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.2
+version: v1.12.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -166,3 +166,76 @@ patch:
         patched: '2018-01-16T19:16:33.026Z'
     - '@domojs/chat-date > @domojs/chat > @domojs/theme-default > @akala-modules/core > @akala/server > server-static > socket.io > socket.io-client > socket.io-parser > debug > ms':
         patched: '2018-01-16T19:16:33.026Z'
+  'npm:hoek:20180212':
+    - '@domojs/chat-date > @akala/server > server-static > npm > libcipm > npm-lifecycle > node-gyp > request > hawk > sntp > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@akala/server > server-static > npm > node-gyp > request > hawk > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@akala/server > server-static > npm > node-gyp > request > hawk > sntp > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@akala/server > server-static > npm > node-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@akala/server > server-static > npm > libcipm > npm-lifecycle > node-gyp > request > hawk > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@akala/server > server-static > npm > libcipm > npm-lifecycle > node-gyp > request > hawk > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@akala/server > server-static > npm > libcipm > npm-lifecycle > node-gyp > request > hawk > sntp > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@akala/server > server-static > npm > libcipm > npm-lifecycle > node-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@akala/server > server-static > npm > npm-lifecycle > node-gyp > request > hawk > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@akala/server > server-static > npm > npm-lifecycle > node-gyp > request > hawk > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@akala/server > server-static > npm > npm-lifecycle > node-gyp > request > hawk > sntp > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@akala/server > server-static > npm > npm-lifecycle > node-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @akala/server > server-static > npm > node-gyp > request > hawk > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @akala/server > server-static > npm > node-gyp > request > hawk > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @akala/server > server-static > npm > node-gyp > request > hawk > sntp > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @akala/server > server-static > npm > node-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @akala/server > server-static > npm > libcipm > npm-lifecycle > node-gyp > request > hawk > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @akala/server > server-static > npm > libcipm > npm-lifecycle > node-gyp > request > hawk > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@akala/server > server-static > npm > node-gyp > request > hawk > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @akala/server > server-static > npm > libcipm > npm-lifecycle > node-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @akala/server > server-static > npm > npm-lifecycle > node-gyp > request > hawk > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @akala/server > server-static > npm > npm-lifecycle > node-gyp > request > hawk > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @akala/server > server-static > npm > npm-lifecycle > node-gyp > request > hawk > sntp > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @akala/server > server-static > npm > npm-lifecycle > node-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > npm > node-gyp > request > hawk > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > npm > node-gyp > request > hawk > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > npm > node-gyp > request > hawk > sntp > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > npm > node-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > npm > libcipm > npm-lifecycle > node-gyp > request > hawk > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > npm > libcipm > npm-lifecycle > node-gyp > request > hawk > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > npm > libcipm > npm-lifecycle > node-gyp > request > hawk > sntp > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > npm > libcipm > npm-lifecycle > node-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > npm > npm-lifecycle > node-gyp > request > hawk > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > npm > npm-lifecycle > node-gyp > request > hawk > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > npm > npm-lifecycle > node-gyp > request > hawk > sntp > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
+    - '@domojs/chat-date > @domojs/chat > @akala/server > server-static > npm > npm-lifecycle > node-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2018-06-21T22:40:37.304Z'
