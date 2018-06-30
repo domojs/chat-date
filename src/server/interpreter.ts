@@ -23,24 +23,24 @@ function dateInterpreter(cmd, next, callback)
 {
     var text = cmd.text;
     var timeStart = cmd.timeStart || 0;
-    var relativeTimes;
+    var relativeTimes: string[];
     relativeTimes = relativeTimes.concat(akala.map(akala.grep(Sugar.Date.getLocale()['modifiers'], function (item)
     {
         return text.indexOf(item.src, timeStart) >= 0;
     }, true), function (item) { return item.src; }));
-    relativeTimes = relativeTimes.concat(akala.grep(Sugar.Date.getLocale()['months'], function (item)
+    relativeTimes = relativeTimes.concat(akala.grep(Sugar.Date.getLocale()['months'] as string[], function (item)
     {
         return text.indexOf(item, timeStart) >= 0;
     }));
-    relativeTimes = relativeTimes.concat(akala.grep(Sugar.Date.getLocale()['units'], function (item)
+    relativeTimes = relativeTimes.concat(akala.grep(Sugar.Date.getLocale()['units'] as string[], function (item)
     {
         return text.indexOf(item, timeStart) >= 0;
     }));
-    relativeTimes = relativeTimes.concat(akala.grep(Sugar.Date.getLocale()['weekdays'], function (item)
+    relativeTimes = relativeTimes.concat(akala.grep(Sugar.Date.getLocale()['weekdays'] as string[], function (item)
     {
         return text.indexOf(item, timeStart) >= 0;
     }));
-    relativeTimes = relativeTimes.concat(akala.grep(Sugar.Date.getLocale()['tokens'], function (item)
+    relativeTimes = relativeTimes.concat(akala.grep(Sugar.Date.getLocale()['tokens'] as string[], function (item)
     {
         return text.indexOf(item, timeStart) >= 0;
     }));
