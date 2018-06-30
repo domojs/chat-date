@@ -37,6 +37,6 @@
     "build": "npm run build:js"
   },
   "typings": "dist/server/index.d.ts",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "snyk": true
 }
