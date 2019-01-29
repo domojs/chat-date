@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@types/ws": "^3.2.0",
-    "snyk": "^1.69.10",
+    "snyk": "^1.123.0",
     "sugar": "^2.0.4"
   },
   "peerDependencies": {
@@ -34,7 +34,9 @@
     "build:js:routes": "browserify -x @akala/client -x @akala/core dist/client/routes.js -o dist/routes.js",
     "build:js:tile": "browserify -x @akala/client -x @akala/core -i @domojs/theme-default/dist/tile dist/client/tile.js -o dist/tile.js",
     "prepublishOnly": "npm run build",
-    "build": "npm run build:js"
+    "build": "npm run build:js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "typings": "dist/server/index.d.ts",
   "version": "1.0.9",
