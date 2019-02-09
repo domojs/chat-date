@@ -4,7 +4,7 @@ import * as chat from '@domojs/chat';
 
 export * from './interpreter';
 
-akala.injectWithNameAsync(['$agent.chat'], function (client)
+akala.injectWithNameAsync(['$agent.api/@domojs/chat'], function (client)
 {
     akala.api.jsonrpcws(chat.meta).createServerProxy(client).register({ path: path.resolve(__dirname, './interpreter'), name: 'date' });
 });

@@ -6,19 +6,21 @@
     "url": "https://github.com/domojs/chat-date/issues"
   },
   "dependencies": {
-    "@types/ws": "^3.2.0",
-    "snyk": "^1.69.10",
-    "sugar": "^2.0.4"
+    "@types/ws": "^6.0.1",
+    "snyk": "^1.126.0",
+    "sugar": "^2.0.6"
   },
   "peerDependencies": {
     "@akala/server": "^2.0.28",
-    "@domojs/chat": "^1.0.20",
+    "@domojs/chat": "^1.0.23",
     "@domojs/chat-date": "^1.0.7"
   },
   "deprecated": false,
   "description": "",
   "devDependencies": {
-    "@akala/server": "^2.0.28"
+    "@akala/server": "^2.1.12",
+    "@domojs/chat": "^1.0.23",
+    "@types/debug": "^4.1.0"
   },
   "homepage": "https://github.com/domojs/chat-date#readme",
   "license": "MIT",
@@ -37,6 +39,6 @@
     "build": "npm run build:js"
   },
   "typings": "dist/server/index.d.ts",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "snyk": true
 }
