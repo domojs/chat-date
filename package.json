@@ -6,7 +6,7 @@
     "url": "https://github.com/domojs/chat-date/issues"
   },
   "dependencies": {
-    "@types/ws": "^6.0.1",
+    "@types/ws": "^7.4.0",
     "snyk": "^1.126.0",
     "sugar": "^2.0.6"
   },
